@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenochtitlan: El Imperio del Lago</title>
+    <!-- Enlace al archivo de estilos externos -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>México-Tenochtitlan</h1>
+        <p>"Mientras exista el mundo, no acabará la gloria y la fama de México-Tenochtitlan." — Crónicas Mexicas</p>
+    </header>
+
+    <nav>
+        <button class="tab-btn active" onclick="openTab(event, 'historia')">Historia</button>
+        <button class="tab-btn" onclick="openTab(event, 'arquitectura')">Estructuras e Ingeniería</button>
+        <button class="tab-btn" onclick="openTab(event, 'sociedad')">Sociedad y Vida</button>
+        <button class="tab-btn" onclick="openTab(event, 'trivia')">Trivia Interactiva</button>
+    </nav>
+
+    <main>
+        <!-- SECCIÓN HISTORIA -->
+        <section id="historia" class="content-section active">
+            <h2>La Fundación del Imperio</h2>
+            <p>Fundada en <strong>1325</strong> por el pueblo mexica, Tenochtitlan se convirtió en el corazón del imperio más poderoso de Mesoamérica. Según la leyenda, los aztecas viajaron desde la mítica Aztlán buscando la señal dictada por su dios Huitzilopochtli: un águila posada sobre un nopal devorando una serpiente (o un pájaro precioso, según las fuentes más antiguas).</p>
+            <div class="grid">
+                <div class="card">
+                    <h3>El Origen</h3>
+                    <p>Iniciaron como un grupo nómada y menospreciado en el Valle de México, teniendo que asentarse en un islote inhóspito del Lago de Texcoco.</p>
+                </div>
+                <div class="card">
+                    <h3>La Triple Alianza</h3>
+                    <p>En 1428, se unieron con los señoríos de Texcoco y Tlacopan, logrando derrotar al poderoso reino de Azcapotzalco y consolidando su hegemonía militar.</p>
+                </div>
+                <div class="card">
+                    <h3>La Caída</h3>
+                    <p>En agosto de 1521, tras un asedio brutal de más de 80 días, enfermedades como la viruela y la alianza de los españoles con miles de indígenas tlaxcaltecas, la ciudad cayó.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN ARQUITECTURA -->
+        <section id="arquitectura" class="content-section">
+            <h2>Estructuras e Infraestructura sobre el Agua</h2>
+            <p>Construida enteramente sobre el agua, la ciudad albergaba a más de 200,000 habitantes. Su diseño simétrico y avanzado control de la ingeniería hidráulica desafiaron las limitaciones geográficas del lago.</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>El Templo Mayor</h3>
+                    <p>Una colosal pirámide doble que representaba el centro del universo mexica. En la cima se encontraban dos adoratorios: uno azul dedicado a <strong>Tláloc</strong> (dios de la lluvia y la fertilidad) y uno rojo para <strong>Huitzilopochtli</strong> (dios del sol y la guerra), simbolizando el equilibrio entre la vida y la destrucción.</p>
+                </div>
+                <div class="card">
+                    <h3>El Recinto Sagrado</h3>
+                    <p>Un enorme complejo amurallado de 400 metros por lado en el corazón de la ciudad. Contenía cerca de 78 edificios religiosos, entre ellos el templo de Quetzalcóatl, el *Calmécac* (escuela de nobles), el juego de pelota ceremonial (*Teotlachco*) y el *Huey Tzompantli* (altar de cráneos).</p>
+                </div>
+                <div class="card">
+                    <h3>Mercado de Tlatelolco</h3>
+                    <p>Ubicado en la ciudad gemela al norte, era el centro comercial más grande de Mesoamérica. Más de 60,000 personas se reunían diariamente para intercambiar productos mediante trueque o usando semillas de cacao y mantas de algodón como moneda. Todo estaba estrictamente regulado por jueces del mercado.</p>
+                </div>
+                <div class="card">
+                    <h3>Chinampas e Ingeniería Hidráulica</h3>
+                    <p>Llamadas "jardines flotantes", eran balsas de cañas cubiertas con lodo del lago y fijadas al fondo con árboles de ahuejote. Permitían hasta 4 cosechas anuales. Además, construyeron el **Albarradón de Nezahualcóyotl**, un dique de 16 km para separar las aguas saladas de las dulces y evitar inundaciones.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN SOCIEDAD -->
+        <section id="sociedad" class="content-section">
+            <h2>Estructura Social y Vida Cotidiana</h2>
+            <p>La sociedad mexica estaba rígidamente estratificada, pero existía una clara conciencia de comunidad. El honor, la disciplina militar y el cumplimiento del deber religioso dictaban el estatus de sus ciudadanos.</p>
+            
+            <h3>La Pirámide Social</h3>
+            <ul>
+                <li><strong>El Huey Tlatoani ("El que habla"):</strong> Gobernante supremo electo por un consejo. Ejercía el poder militar, político y religioso, siendo visto como el portavoz de los dioses.</li>
+                <li><strong>Los Pipiltin (Nobles):</strong> Familias de la élite que ocupaban los puestos de sacerdotes, jueces, embajadores y altos comandantes militares. No pagaban tributo y poseían tierras privadas.</li>
+                <li><strong>Los Pochtecas (Comerciantes viajeros):</strong> Una clase única y poderosa. Funcionaban como mercaderes de objetos de lujo, pero también como espías y cartógrafos para el Tlatoani en tierras lejanas.</li>
+                <li><strong>Los Macehualtin (Gente común):</strong> El grueso de la población: agricultores, artesanos y soldados. Estaban organizados en **Calpullis** (barrios con linaje e historia común) que administraban tierras comunales.</li>
+                <li><strong>Los Tlacotin (Esclavos/Siervos):</strong> Personas que caían en esta condición por deudas, crímenes o por ser prisioneros de guerra. A diferencia de Europa, no perdían todos sus derechos y su condición no se heredaba a sus hijos.</li>
+            </ul>
+
+            <blockquote>
+                <strong>La Educación Mexica:</strong> El sistema educativo era ejemplar y obligatorio. Los jóvenes nobles asistían al <em>Calmécac</em>, caracterizado por una disciplina espartana, donde aprendían astronomía, historia, leyes y religión. Los hijos de los macehualtin asistían al <em>Telpochcalli</em>, enfocado en el arte de la guerra, la agricultura y los oficios prácticos.
+            </blockquote>
+        </section>
+
+        <!-- SECCIÓN TRIVIA -->
+        <section id="trivia" class="content-section">
+            <h2>¿Cuánto sabes sobre Tenochtitlan?</h2>
+            <p>Demuestra tu conocimiento respondiendo este cuestionario interactivo sobre el Imperio Mexica.</p>
+            
+            <div class="quiz-container" id="quiz-box">
+                <div id="quiz-header">
+                    <h3 id="question-number" style="color: var(--turquesa); font-size: 1rem; margin-bottom: 0.5rem;"></h3>
+                    <h3 id="question-text">Cargando pregunta...</h3>
+                </div>
+                <div id="options-container"></div>
+                <div id="feedback-box" style="display: none;"></div>
+                <button id="next-btn" class="btn-primario" style="display: none;" onclick="nextQuestion()">Siguiente Pregunta</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 - Explorador Histórico de Tenochtitlan. Creado con fines educativos.</p>
+    </footer>
+
+    <!-- Enlace al archivo de JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>
